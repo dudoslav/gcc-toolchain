@@ -343,6 +343,13 @@ _TOOLCHAINS = {
             url = "https://toolchains.bootlin.com/downloads/releases/toolchains/x86-64/tarballs/x86-64--glibc--stable-2021.11-5.tar.bz2",
         ),
     },
+    "13.2.0": {
+        "x86_64": struct(
+            sha256 = "e896274d4c540a45da02c1a167264116314b5e3afd298b79f28554b0f4eb498d",
+            strip_prefix = "x86-64--glibc--bleeding-edge-2023.08-1",
+            url = "https://toolchains.bootlin.com/downloads/releases/toolchains/x86-64/tarballs/x86-64--glibc--bleeding-edge-2023.08-1.tar.bz2",
+        ),
+    },
 }
 
 _SYSROOT_BUILD_FILE_CONTENT = """\
